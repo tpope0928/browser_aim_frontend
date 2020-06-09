@@ -1,0 +1,10 @@
+#main-play-area {
+    background-color: darkblue;
+    width: 1200px;
+    height: 700px;
+}
+
+div {
+    cursor:crosshair;
+    color: aquamarine;
+}
