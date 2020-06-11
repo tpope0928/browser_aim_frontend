@@ -1,0 +1,10 @@
+#main-play-area {
+    background-image: url("images/background2.png");
+    width: 1600px;
+    height: 1000px;
+}
+
+div {
+    cursor:crosshair;
+    color: aquamarine;
+}
