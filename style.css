@@ -17,8 +17,8 @@ div {
     color: aquamarine;
 }
 
-.target {
-    width: 30px;
-    height: 30px;
-
+#target1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
