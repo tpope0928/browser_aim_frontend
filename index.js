@@ -28,14 +28,14 @@ function detectHits() {
     if (distance <= targetRadius) {
         bullet = 0;
         if (distance < 3) {
-            drawTarget("red");
+            drawTarget("black");
             score = score + 10;
         }else {
-            drawTarget("#fb6901");
+            drawTarget("black");
             score = score + 5;
         }
     }else {
-        drawTarget("yellow");
+        drawTarget("black");
         lives--;
     }
     document.getElementById('score').innerHTML = "Score: " + score + " Lives: " + lives;
@@ -45,11 +45,11 @@ function detectHits() {
 function target() {
     bullet = 1;
     ctx.clearRect(0, 0, 1000, 600);
-    targetX = Math.floor((Math.random() * 800) + 20);
-    targetY = Math.floor((Math.random() * 500) + 20);
-    targetRadius = Math.floor((Math.random() * 20) + 8);
+    targetX = Math.floor((Math.random() * 600) + 20);
+    targetY = Math.floor((Math.random() * 300) + 20);
+    targetRadius = Math.floor((Math.random() * 10) + 4);
     if (lives != 0) {
-        drawTarget("green");
+        drawTarget("black");
     }else {
         ctx.clearRect(0, 0, 1000, 600);
         document.getElementById('score').innerHTML = "Game Over";
@@ -66,4 +66,4 @@ function drawTarget(color) {
     ctx.fill();
 }
 
-var game = setInterval(target ,800);
+var game = setInterval(target ,400);

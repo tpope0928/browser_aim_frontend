@@ -1,12 +1,12 @@
 #main-play-area {
     background-image: url("images/background2.png");
-    width: 1600px;
-    height: 1000px;
+    width: 1602px;
+    height: 1002px;
 }
 
 #myCanvas {
-    width: 1300px;
-    height:600px;
+    width: 1200px;
+    height:800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,12 +16,5 @@ div {
     cursor:crosshair;
     color: aquamarine;
 }
-<<<<<<< HEAD
-=======
 
-#target1 {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-}
->>>>>>> 31eda0b3590b679fd3071a036445e660ca20521b
+
