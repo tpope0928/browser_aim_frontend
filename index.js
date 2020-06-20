@@ -8,7 +8,7 @@ var targetY;
 var targetRadius;
 var distance;
 var score = 0;
-var lives = 10;
+var lives = 5;
 var color = "green";
 
 document.addEventListener("click", mousePosition);
@@ -66,4 +66,4 @@ function drawTarget(color) {
     ctx.fill();
 }
 
-var game = setInterval(target ,400);
+var game = setInterval(target ,600);
