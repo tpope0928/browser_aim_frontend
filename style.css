@@ -1,3 +1,4 @@
+
 #main-play-area {
     background-image: url("images/background2.png");
     width: 1602px;
@@ -11,6 +12,11 @@
     overflow-x: hidden;
     overflow-y: hidden;
     border: 1px solid #63fdd8;
+}
+
+#score {
+    position: absolute;
+    right: 610px;
 }
 
 div {
